@@ -1,0 +1,52 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.adminbody{
+    /*background-image: url(img/back.jpg);*/
+    background-color: azure;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donut {
+    position: relative;
+    margin-left: 104px;
+  }
+  
+  .buttons {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem; /*bsh ranim tkolich chniya rem , ye sidek 1rem=16px*/
+  }
+  .butUser
+  {
+    background-color: #007bff;
+      color: white; padding: 0.5rem 1rem;
+       border: none; border-radius: 0.25rem; font-size: 1rem; font-weight: 600;
+  }
+  .butUser:hover {
+    background-color: #0069d9; 
+  }
+  .butCat {
+     background-color: #007bff;
+      color: white; padding: 0.5rem 1rem;
+       border: none; border-radius: 0.25rem; font-size: 1rem; font-weight: 600; }
+
+  .butCat:hover { background-color: #0069d9; }
+  .donutLabel{
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+  }

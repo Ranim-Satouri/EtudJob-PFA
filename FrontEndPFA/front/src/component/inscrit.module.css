@@ -1,0 +1,297 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.inscritbody{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insheader {
+    height: 64px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 0px;
+  }
+  
+  .insheader .link1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 0px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  
+  .insheader .link2 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+    
+  }
+  .insnavlist {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+  }
+  .insnavitem {
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .insheader a:hover {
+    color: #817139;
+  }
+  .inslogo {
+    position: absolute;
+    top: 50%;
+    left: 16px; 
+    transform: translateY(-50%);
+    height: 100px;
+    width: 192px;
+    padding-top: 38px;
+  }
+  
+.p1inscrit{
+    text-shadow: 2px 4px 19px #ffe5ad;
+    font-family: math;
+    color:#3d3322;
+    font-size: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.tabcontent{
+    width: 602px;
+    height: fit-content;
+    background-color: #fcfcfc;
+    border: 2px solid black;
+    border-radius: 21px;
+    /*display: flex;
+    flex-direction: row;*/
+    box-shadow: 9px 8px 0px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 103px;
+       
+}
+.labelinput {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 56px;
+  }
+  .labelinput label
+{
+    position: relative;
+    bottom: -19px;
+    margin: 6px;
+    font-family: monospace;
+}
+  .inputinscrit{
+      width: 484px;
+      border: 2px solid #e5e5e5;
+
+  }
+  .labelinput1 {
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    /*
+    margin-left: 54px; /* center the element horizontally 
+    margin-right: auto; /* center the element horizontally */
+   /* padding-bottom:10px ;
+    margin-top: 22px;
+    */
+}
+
+.labelinput1 label {
+    position: relative;
+   left:30px;
+    /* margin-right: 10px;  add some space between the labels */
+    font-family: monospace;
+    
+}
+.prenom{
+  font-family: monospace;
+  position: relative;
+  left: 48px;
+}
+.inputinscrit1{
+  margin-right: -6px;
+  margin-left: -2px;
+    width: 223px; 
+    border: 2px solid #e5e5e5;
+
+}
+.labelinput5 {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 22px;
+    font-family: monospace;
+    /*
+    margin-left: 54px; /* center the element horizontally 
+    margin-right: auto; /* center the element horizontally */
+   /* padding-bottom:10px ;
+    margin-top: 22px;
+    */
+}
+
+.labelinput5 label {
+    position: relative;
+    left:41px;
+    /* margin-right: 10px;  add some space between the labels */
+    font-family: monospace;
+}
+.inputinscrit5{
+    margin-right: -2px;
+    margin-left: -18px;
+    width: 210px; 
+    border: 2px solid #e5e5e5;
+}
+.inputinscrit6 {
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: column-reverse;
+    padding-left: 58px;
+    align-items: flex-start;
+    padding-top: 27px;
+  
+  }
+  
+  .inputinscrit6 {
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: column-reverse;
+    padding-left: 58px;
+    align-items: flex-start;
+    padding-top:35px;
+  }
+  .inputinscrit6 label{
+    position: relative;
+    bottom: 145px;
+    font-family: monospace;
+    margin-left: 5px;
+  }
+  .inputinscrit6{
+    margin-left: -5px;
+    width: 440px;
+  }
+
+  .radios {
+    display: flex;
+    flex-direction: row;
+    margin-left:-91px; /* Add margin for spacing between radio buttons */
+  }
+  
+
+  .bottom1
+  {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -2px;
+    background-color:#e9d6b4;
+    margin: 20px;
+    
+  }
+  .bottom1:hover {
+    background-color: #faf6e8;
+  }
+
+  .labelinput3{
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+  }
+  .labelinput4 {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: -33px;
+  }
+  .pgenre{
+    right: 211px;
+    position: relative;
+    font-size: 15px;
+    margin-top: 11px;
+    top: 21px;
+    font-family: monospace;
+  }
+  .prole{
+    
+    right: 179px;
+    position: relative;
+    font-size: 14px;
+    margin-top: 11px;
+    top: 21px;
+    font-family: monospace;
+  }
+  .petab {
+    left: 91px;
+    position: relative;
+    font-family: monospace;
+  }
+  
+  /* For radio buttons in labelinput4 */
+.labelinput4 input[type="radio"] {
+  transform: scale(0.8); /* Adjust the scale factor as needed */
+  margin-right: 5px; /* Add some space between radio button and label */
+}
+
+/* For radio buttons in labelinput3 */
+.labelinput3 input[type="radio"] {
+  transform: scale(0.8); /* Adjust the scale factor as needed */
+  margin-right: 5px; /* Add some space between radio button and label */
+}
+
+
+.inputinscrit6text {
+    
+  margin-top: 20px;
+  width: 484px;
+  resize: none;
+  border-color: #9e9e9e;    
+  outline: none;
+  height: 100px; 
+  overflow: hidden;
+  padding: 10px; /* Espacement interne pour le texte */
+  border: 2px solid #ccc; /* Bordure subtile */
+  border-radius: 8px; /* Bords arrondis */
+  resize: none; /* Permet à l'utilisateur de changer la taille verticalement */
+  outline: none; /* Supprime l'outline par défaut au focus */
+  box-shadow: none; /* Pas de shadow pour un look plus net */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Transition douce pour border et shadow */
+  font-size: 16px; /* Taille de texte appropriée */
+  color: #333; /* Couleur du texte */
+  background-color: #fff; /* Couleur de fond */ 
+}
+.inputinscrit6text:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: #5a5a5a; /* Change border color on focus */
+  box-shadow: 0 0 8px rgba(0, 102, 204, 0.3); /* Légère ombre portée au focus */
+}
+
+.inputinscrit6text::placeholder {
+  color: #aaa; /* Couleur du placeholder */
+}

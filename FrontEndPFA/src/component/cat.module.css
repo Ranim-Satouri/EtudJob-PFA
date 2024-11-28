@@ -1,0 +1,83 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tabcat {
+    border-collapse: collapse;
+    width: 86%;
+    font-size: 18px; /* increase font size */
+    border: 2px solid #ddd; /* add border to table */
+    margin-top: 70px; 
+  }
+  
+  .tabcat th,.tabcat td {
+    border: 2px solid #ddd; /* increase border width */
+    padding: 18px;
+    font-size: 22px;
+  }
+  
+  .tabcat tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabcat th {
+    background-color: #a1b4bc;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .tabcat tr:hover {
+    background-color: #f5f5f5;
+  }
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ajoutbut
+  {
+    position: relative; 
+    padding: 0.5rem 4rem;
+     margin: 20px;
+   margin-top: 20px;
+   background-color: #607d8b;
+   color: white;
+   border: none;
+   /* width: 0%; */
+   border-radius: 1.25rem;
+  }
+  .ajoutbut:hover {  
+   background-color: #3e638e; 
+   }
+   .annulbut
+  {
+    position: relative; 
+    padding: 0.5rem 4rem;
+     margin: 20px;
+   margin-top: 20px;
+   background-color: #607d8b;
+   color: white;
+   border: none;
+   /* width: 0%; */
+   border-radius: 1.25rem;
+  }
+  .annulbut:hover {  
+   background-color: #3e638e; 
+   }
+   .inpcat{
+    border: #ddd;
+   }
+   .pcat
+   {
+    font-family: cursive;
+   }

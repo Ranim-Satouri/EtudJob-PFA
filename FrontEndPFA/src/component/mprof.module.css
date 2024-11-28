@@ -1,0 +1,141 @@
+.me {
+    width: 80%; /* 90% of the viewport width */
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto;  /*center the container */
+     height: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-top:  3%;
+    margin-bottom: 20%; /* Adjust as needed */
+    border-radius: 50px;
+  }
+  
+  .formContainer {  width: 80%; /* 90% of the viewport width */
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto;  /*center the container */
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-top: 3vw;;
+    margin-bottom: 10%; /* Adjust as needed */
+    font-size: 3vw;
+   }
+  
+  .inputGroup {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 2%; /* Adjust as needed */
+    margin-right: 5%; /* Adjust as needed */
+    margin-left: 5%; /* Adjust as needed */
+  }
+  
+  /* Style for the input field (.im) */
+  .im {
+    margin-right: 4%; /* Adjust as needed */
+    margin-left: 6%; /* Adjust as needed */
+    flex: 1; /* Allow input field to grow */
+    padding: 1vw; /* Adjust as needed */  border: 2px solid black; /* Black border */
+    border-radius: 20px; /* Rounded borders */
+    font-weight: bold; /* Bold font */
+    outline: none; /* Remove outline when clicked */
+    box-sizing: border-box; /* Include borders and padding in width */
+    height: 5vh; /* Adjust as needed */
+  
+     
+    background-color: #F3F3F3; /* Background color */
+     
+  }
+  
+  /* CSS for the input field when clicked */
+  .im  {
+    transform: scale(1.05); /* Increase size */
+    border: 2px solid #F3F3F3; /* Change border to thicker and colored */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add box shadow for 3D effect */
+  }
+  
+  /* Style for the label (.lab) */
+  .lab {
+    width: 200px; /* Fixed width for labels */
+    color: #624CAB; /* Text color */
+    font-weight: bold; /* Bold font */
+    font-size: 18px; /* Font size */
+    text-align: right; /* Align text to the right */
+    margin-right: 20px; 
+    /* Right margin to separate labels from inputs */
+    margin-left: -10px;
+  }
+  
+  /* Apply animation to labels with class 'lab' */
+  .lab {
+    animation-name: labelAnimation;
+    animation-duration: 5s; /* Duration of the animation */
+    animation-iteration-count: 1; /* Run the animation once */
+  }
+  
+  /* Define styles for the button when clicked */
+     
+  .h2
+  {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a text-shadow effect */
+    color: #624CAB;
+    font-weight: bold;
+    margin-left:  -5% ;
+    margin-top: 30vw;
+    font-size: 3vw; /* Adjust as needed */
+  }
+   
+   
+  .btnc {
+    display: flex;
+    justify-content: space-between; /* Pour aligner les boutons aux extrémités */
+    margin-bottom: 5%; /* Marge entre les boutons et le reste du contenu */
+  }
+  
+  
+  .btn3 {
+    flex: 1; /* Permet aux boutons de partager l'espace de manière égale */
+    height: 7%;
+    width: auto; /* La largeur s'ajustera automatiquement en fonction du contenu */
+    padding: 10px 20px; /* Espacement intérieur */
+    font-size: 1.5vw; /* Taille de la police */
+    background-color: white; /* Couleur de fond */
+    color: #44633F; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 10px; /* Bordures arrondies */
+    cursor: pointer; /* Curseur de souris */
+    transition: all 0.3s ease; /* Effet de transition pour le changement de taille */
+    font-weight: bold; 
+    
+  }
+  .btn2
+  {
+    flex: 1; /* Permet aux boutons de partager l'espace de manière égale */
+    height: 7%;
+    width: auto ; /* La largeur s'ajustera automatiquement en fonction du contenu */
+    padding-top:1.7vw ; /* Espacement intérieur */
+    font-size: 1.5vw; /* Taille de la police */
+    background-color: white; /* Couleur de fond */
+    color: #44633F; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 10px; /* Bordures arrondies */
+    cursor: pointer; /* Curseur de souris */
+    transition: all 0.3s ease; /* Effet de transition pour le changement de taille */
+    font-weight: bold; 
+    margin-bottom: 4%;
+    margin-left: -2%;
+  }
+  .btn2.focus,.btn3.focus  {
+    color:#64A6BD;
+   transform: scale(1.05); /* Increase size */
+    
+ }
+ 
+ 
+ /* Define styles for the button when hovered */
+ .btn2:hover , .btn3:hover , .h2:hover {
+   
+   color:#64A6BD;
+   transform: scale(1.05); /* Increase size */
+   }
+ 
+  
+  /* Define styles for the button when clicked */
+  
